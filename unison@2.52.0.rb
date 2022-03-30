@@ -13,7 +13,7 @@ class UnisonAT2520 < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on "ocaml" => :build
+  depends_on "ocaml@4.12.0" => :build
 
   def install
     ENV.deparallelize
