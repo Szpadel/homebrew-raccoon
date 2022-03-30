@@ -10,7 +10,7 @@
 # - coq
 # - coccinelle
 # - unison
-class Ocaml < Formula
+class OcamlAt4120 < Formula
   desc "General purpose programming language in the ML family"
   homepage "https://ocaml.org/"
   # Remove `coq` from `flat_namespace_allowlist` at version bump.
